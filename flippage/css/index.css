@@ -1,0 +1,59 @@
+/* CSS Document */
+html,body,p,ul,li,h1,h2,h3,h4,h5,h6,div,span,p{
+	margin:0;
+	padding:0;
+}
+html{font:"微软雅黑" 14px/1.42;}
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.clear:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clear {
+	zoom: 1;
+}
+
+.faceShow {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.faceShow span {
+	line-height: 10px;
+	padding: 5px;
+	width: 10%;
+	text-align: center;
+	border: 1px #000000 solid;
+	
+}
+#faceContent{
+	width: 800px;
+	border: 1px #CCCCCC solid;
+	display: none;
+	border-radius: 5px;
+}
+#clipDIV {
+	width: 60%; 
+	margin: 20px auto; 
+	padding: 5px;
+}
+#clipDIV ul {
+	width: 600px;
+	margin: 0 auto;
+}
